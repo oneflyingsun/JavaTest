@@ -1,3 +1,5 @@
+package designPattern;
+
 //Component 英雄接口
  interface Hero {
     //学习技能

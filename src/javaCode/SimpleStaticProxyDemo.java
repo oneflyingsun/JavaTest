@@ -1,3 +1,5 @@
+package javaCode;
+
 public class SimpleStaticProxyDemo {
 
     static interface IService {

@@ -1,3 +1,5 @@
+package javaCode;
+
 public class ProducerAndConsumer {
     static class Producer extends Thread{
         MyBlockingQueue2<String> queue;

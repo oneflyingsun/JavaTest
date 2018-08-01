@@ -1,3 +1,10 @@
+package algorithm;
+/*
+*   算法
+*   所有元素都是成对的，只有一个元素是单一的，求问如何在O(N)的复杂度里面找出这个元素
+*
+* */
+
 public class OnlyOneNum {
     public static int singleNumber(int[] nums) {
         int result=0;
@@ -11,3 +18,6 @@ public class OnlyOneNum {
         System.out.println(singleNumber(nums));
     }
 }
+/*
+
+ */

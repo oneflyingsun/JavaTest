@@ -1,4 +1,4 @@
-package javaCode;
+package javaCode.proxy;
 
 public class SimpleStaticProxyDemo {
 

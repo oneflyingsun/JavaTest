@@ -1,4 +1,4 @@
-package javaCode;
+package javaCode.threadPool;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

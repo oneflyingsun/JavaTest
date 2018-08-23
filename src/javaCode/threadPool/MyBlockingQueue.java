@@ -1,4 +1,4 @@
-package javaCode;
+package javaCode.threadPool;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
@@ -16,7 +16,7 @@ public class MyBlockingQueue<E> {
             System.out.println("Wait01");
         }
         queue.add(e);
-       // notifyAll();
+        notifyAll();
     }
     public synchronized E take() throws InterruptedException{
         while(queue.isEmpty()){
@@ -24,7 +24,7 @@ public class MyBlockingQueue<E> {
             System.out.println("Wait02");
         }
         E e=queue.poll();
-       // notifyAll();
+        notifyAll();
         return e;
     }
 }

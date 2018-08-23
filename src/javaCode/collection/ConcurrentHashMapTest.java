@@ -1,4 +1,4 @@
-package javaCode;
+package javaCode.collection;
 
 import java.util.Map;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package algorithm;
+package javaCode.thread;
 
 /**
  * ThreadLocal用法

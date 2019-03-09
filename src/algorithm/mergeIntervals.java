@@ -1,4 +1,4 @@
-package com.jayce;
+package algorithm;
 
 import java.util.LinkedList;
 import java.util.List;

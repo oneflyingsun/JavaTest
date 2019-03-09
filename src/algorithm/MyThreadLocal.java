@@ -1,4 +1,4 @@
-package com.jayce;
+package algorithm;
 
 /**
  * ThreadLocal用法

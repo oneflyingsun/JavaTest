@@ -19,6 +19,7 @@ public class ConcurrentHashMapTest {
                     for (int i = 0; i < 100; i++) {
                      //   map.put(j.incrementAndGet(), 1);
                         map.put(j++,i);
+                        System.out.println(j+"==="+i);
                     }
                 }
             };

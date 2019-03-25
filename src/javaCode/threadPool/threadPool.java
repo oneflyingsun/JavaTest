@@ -4,7 +4,7 @@ import java.util.concurrent.*;
 
 import static java.lang.Thread.sleep;
 
-public class JavaThreadPool {
+public class threadPool {
     public static void main(String[] args) {
         // 创建一个可重用固定线程数的线程池
         ExecutorService pool2 = Executors.newFixedThreadPool(3);

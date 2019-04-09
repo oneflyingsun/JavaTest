@@ -14,7 +14,7 @@ public class NQueens {
     int[] obliqueDiagonal;
     public static void main(String[] args) {
         long oldTime = System.nanoTime();
-        int result = new NQueens().totalNQueens(4);
+        int result = new NQueens().totalNQueens(8);
         System.out.println(result);
         System.out.println("Time:========:" + (System.nanoTime() - oldTime));
     }
